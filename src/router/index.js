@@ -17,6 +17,22 @@ const routes = [
         path: "/",
         component: () => import("@/pages/index.vue"),
       },
+      {
+        path: "/showtimes",
+        // component: () => import("@/pages/showtimes/index.vue"),
+      },
+      {
+        path: "/movie/showing",
+        // component: () => import("@/pages/movie/showing"),
+      },
+      {
+        path: "/movie/upcoming",
+        // component: () => import("@/pages/movie/upcoming"),
+      },
+      {
+        path: "/news",
+        // component: () => import("@/pages/blogs/news"),
+      },
     ],
   },
 ];

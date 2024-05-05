@@ -2,7 +2,7 @@
   <v-app-bar>
     <v-container>
       <v-toolbar flat class="mainHeader" color="white">
-        <router-link to="/index.html" class="border-none">
+        <router-link to="/" class="border-none">
           <v-img src="@/assets/1.svg" height="60" width="150" max-width="150"
         /></router-link>
         <v-spacer></v-spacer>
@@ -56,7 +56,7 @@ export default {
     links: [
       {
         name: "Trang chủ",
-        path: "/index.html",
+        path: "/",
       },
       {
         name: "Lịch chiếu",
